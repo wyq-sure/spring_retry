@@ -1,0 +1,8 @@
+# 通过自定义配置，同时加上实体类来实现线程池的部分参数灵活配置
+ownconfig:
+  thread:
+    corePoolSize: 32
+    maxPoolSize: 60
+    queueCapacity: 60
+    keepAliveSeconds: 60
+    threadNamePrefix: AsyncThread_
